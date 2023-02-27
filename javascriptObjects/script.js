@@ -8,6 +8,16 @@ const penStand = {
         breadth: 50,
     },
     hasClock:false,
+    changeMaterial: function(mat){
+        this.material = mat;
+        console.log('Material changed to:', this.material);
+    },
+    changeItemsCapacity: function(item)
+    {
+        this.itemsCapacity = item;
+        // return;
+        console.log("Items Capacity changed to:", this.itemsCapacity);
+    }
 };
 const table = {
     material:'wood',
