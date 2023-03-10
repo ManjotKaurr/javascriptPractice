@@ -1,18 +1,8 @@
 /* import module PenHolder
 * create a object for the class PenHolder
 */
-import PenHolder from "./PenHolder.js";
-import Table from "./Table.js";
+import Table from "../javascriptClasses/Table.js";
 
-const brownHolder = new PenHolder(
-    'plastic',
-    'brown',
-    20,
-    '2kg',
-    300,
-    350,
-    true
-);
 const studyTable = new Table(
     'Study Table',
     'Sandalwood',
@@ -26,7 +16,7 @@ const studyTable = new Table(
     1,
 );
 const diningTable =  new Table(
-    'dining Table',
+    'Dining Table',
     'wood',
     "6 ft",
     3000,
@@ -61,6 +51,4 @@ const content =
 document.body.innerHTML = content;
 console.log('Study Table:', studyTable);
 console.log('Dining Table:', diningTable);
-console.log('Brown color pen holder:', brownHolder);
-console.log('weight of the pen holder:', brownHolder.weight);
 // console.log(document);
